@@ -1,2 +1,1 @@
-0 6  * * 0,2-6  /etc/init.d/softcam restart
-0 6  * * 1      /usr/script/system_update.sh
+0 6  * * *  /etc/init.d/softcam restart
