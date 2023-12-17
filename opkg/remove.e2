@@ -31,6 +31,7 @@ enigma2-locale-ro
 enigma2-locale-ru
 enigma2-locale-sk
 enigma2-locale-sl
+enigma2-locale-sq
 enigma2-locale-sr
 enigma2-locale-sv
 enigma2-locale-th
@@ -59,3 +60,7 @@ nano-locale-fr
 nano-locale-it
 nano-locale-nl
 nano-locale-pt
+tar-locale-fr
+tar-locale-it
+tar-locale-nl
+tar-locale-pt
