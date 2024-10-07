@@ -1,1 +1,1 @@
-0 6  * * *  /etc/init.d/softcam restart
+0 6  * * *      /usr/script/services_restart.sh
