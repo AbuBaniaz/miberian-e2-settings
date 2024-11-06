@@ -50,6 +50,7 @@ echo "e2-settings: Removing unwanted packages..."
 opkg_remove_from_file "./opkg/remove.e2"
 opkg_remove_from_file "./opkg/remove.$distro"
 opkg_remove_from_file "./opkg/remove.$box"
+cat ./opkg/remove.* > /usr/script/remove.opkg
 
 echo "e2-settings: Running custom commands..."
 if [[ -f ./install/custom-e2.sh ]]     ; then ./install/custom-e2.sh      ; fi
