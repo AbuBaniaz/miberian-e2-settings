@@ -90,3 +90,4 @@ config.usage.shutdownOK=False
 config.usage.useAudioCuesheet=False
 config.usage.useChapterInfo=False
 config.usage.useVideoCuesheet=False
+config.volumeControl.volume=100
