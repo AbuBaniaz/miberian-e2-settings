@@ -32,3 +32,6 @@ gigablue-swapcreate
 packagegroup-base-ipv6
 packagegroup-base-smbfs-client
 odhcp6c
+samba
+smbclient
+autofs
