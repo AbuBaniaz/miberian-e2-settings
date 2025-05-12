@@ -19,5 +19,5 @@ if [ "$standby" = " true" ] && [ "$recordings" = "0" ]; then
     # Restart enigma2
     wget -O- -q http://127.0.0.1/api/powerstate?newstate=3
     # Restart softcam
-    /etc/init.d/softcam restart
+    # /etc/init.d/softcam restart
 fi
