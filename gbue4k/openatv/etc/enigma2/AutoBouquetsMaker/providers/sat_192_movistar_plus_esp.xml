@@ -55,23 +55,8 @@ blacklist_name = (
             )
 
 tdtlist_name = (
-		"LA 1",
-		"LA 2",
-		"ANTENA 3",
-		"CUATRO",
-		"TELECINCO",
-		"LA SEXTA",
-		"PARAMOUNT",
-		"BE MAD",
-		"ENERGY",
-		"FDF",
-		"NEOX",
 		"GOL",
 		"TELEDEPORTE",
-		"DIVINITY",
-		"NOVA",
-		"BOING",
-		"CLAN  TVE",
 		"24 HORAS",	
 	       )
 
