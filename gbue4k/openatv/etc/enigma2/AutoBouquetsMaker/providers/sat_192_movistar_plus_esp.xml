@@ -57,8 +57,7 @@ blacklist_name = (
 tdtlist_name = (
 		"GOL",
 		"TELEDEPORTE",
-		"24 HORAS",	
-	       )
+	    )
 
 blacklist_sid = [30516]
 
