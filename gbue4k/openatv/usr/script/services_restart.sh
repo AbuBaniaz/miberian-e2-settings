@@ -15,6 +15,9 @@ recordings=$(wget -O- -q http://127.0.0.1/api/timerlist | grep '"state": 2' | wc
 # Update channel list
 update_channel_list
 
+# Update epgimport sources
+wget -c https://github.com/davidmuma/Canales_dobleM/raw/refs/heads/master/files/dobleM_E2.sources.tar -O - | tar -x -C /etc/epgimport/ --no-same-permissions
+
 if [ "$standby" = " true" ] && [ "$recordings" = "0" ]; then
     # Restart enigma2
     wget -O- -q http://127.0.0.1/api/powerstate?newstate=3
